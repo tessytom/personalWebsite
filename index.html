@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Dr Tessy Tom</title>
 <meta name="claude:viewport-fit-sides" content="cover">
-<meta name="description" content="Dr Tessy Tom, Professor of Mathematics and Computer Science at JAIN (Deemed-to-be University), Bengaluru. Mathematical modelling, digital forensics, explainable AI and digital twins.">
+<meta name="description" content="Dr Tessy Tom, Associate Professor of Mathematics and Computer Science at JAIN (Deemed-to-be University), Bengaluru. Mathematical modelling, digital forensics, explainable AI and digital twins.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400;1,6..72,500&family=Public+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
@@ -151,11 +151,13 @@ section.block + section.block{border-top:1px solid var(--rule)}
 
 /* contact */
 .contact{background:var(--ink);color:var(--paper)}
-.contact .wrap{padding-block:64px;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:32px;align-items:end}
+.contact .wrap{padding-block:64px;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:32px;align-items:center}
 .contact h2{font-size:clamp(32px,5vw,48px);font-weight:400}
 .contact h2 em{color:var(--brass)}
 .contact p{opacity:.8;max-width:52ch;margin-top:12px}
-.mail{display:flex;flex-wrap:wrap;align-items:center;gap:12px}
+.mail{display:flex;flex-direction:column;gap:10px;min-width:0}
+.mail .row{display:flex;flex-wrap:wrap;align-items:center;gap:10px}
+.mail .k{font-family:var(--mono);font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;opacity:.7;width:120px}
 .mail code{font-family:var(--mono);font-size:15px;background:color-mix(in srgb,var(--paper) 10%,transparent);padding:10px 14px;border-radius:3px;user-select:all;overflow-wrap:anywhere}
 .mail button{font:inherit;font-size:14px;padding:10px 16px;border-radius:3px;border:1px solid color-mix(in srgb,var(--paper) 35%,transparent);background:transparent;color:var(--paper);cursor:pointer}
 .mail button:hover{border-color:var(--brass)}
@@ -190,7 +192,7 @@ footer .wrap{padding-block:24px;display:flex;flex-wrap:wrap;justify-content:spac
     <div class="hero-text">
       <span class="label">Mathematics &middot; Computer Science &middot; Bengaluru</span>
       <h1>Dr Tessy <em>Tom</em></h1>
-      <p class="role"><strong>Professor of Mathematics and Computer Science</strong>, JAIN (Deemed-to-be University), and Research Associate at the Cyber Security and Digital Twin Technologies Research Centre.</p>
+      <p class="role"><strong>Associate Professor of Mathematics and Computer Science</strong>, JAIN (Deemed-to-be University), and Research Associate at the Cyber Security and Digital Twin Technologies Research Centre.</p>
       <p class="lede">I build mathematical models of things that change: how a neurotransmitter moves through a synapse, how heat and salt mix in a fluid, how a patient's condition evolves, and how a doctored video gives itself away. Most of my current work sits where differential equations meet machine learning.</p>
       <p class="eq">&part;u/&part;t = &nabla;&middot;(D&nabla;u) + f(u)</p>
       <div class="links" id="profileLinks"></div>
@@ -219,7 +221,7 @@ footer .wrap{padding-block:24px;display:flex;flex-wrap:wrap;justify-content:spac
       <p>I am a mathematician who likes problems with real consequences, the kind where the equation has to agree with a patient, a courtroom or a classroom.</p>
       <p>My doctoral work was on analytical and numerical solutions of nonlinear parabolic partial differential equations. That training still shapes everything I do. Over the years it has carried me into computational neuroscience, convection in micropolar fluids, optimisation for cardiac care, and, more recently, digital forensics, explainable AI and digital twins for healthcare.</p>
       <p>I began my teaching career as a lecturer at Maharani&rsquo;s Science College, Bengaluru. From 1997 to 2019 I was at Mount Carmel College, Autonomous, where I coordinated the postgraduate programme and later headed the Mathematics Department. I then taught at CHRIST (Deemed to be University), Lavasa campus, and at St Francis College, and served as founding Principal of MVJ Degree College. Since 2024 I have been at JAIN (Deemed-to-be University), teaching BTech and MTech students and working with the Cyber Security and Digital Twin Technologies Research Centre.</p>
-      <p>I work in Python, MATLAB, Mathematica, R, SPSS and LaTeX, and I speak English, Malayalam, Kannada and Tamil. I still enjoy a first-year calculus class as much as a research seminar.</p>
+      <p>I still enjoy a first-year calculus class as much as a research seminar.</p>
     </div>
   </div>
 </section>
@@ -267,14 +269,12 @@ footer .wrap{padding-block:24px;display:flex;flex-wrap:wrap;justify-content:spac
       <h2>Where I have worked</h2>
     </div>
     <ol class="timeline">
-      <li><span class="when">Jul 2024 &ndash; present</span><div><h3>Professor, Mathematics and Computer Science</h3><p>JAIN (Deemed-to-be University), Bengaluru. Research Associate, Cyber Security and Digital Twin Technologies Research Centre. Teaching BTech and MTech computer science students.</p></div></li>
+      <li><span class="when">Jul 2024 &ndash; present</span><div><h3>Associate Professor, Mathematics and Computer Science</h3><p>JAIN (Deemed-to-be University), Bengaluru. Research Associate, Cyber Security and Digital Twin Technologies Research Centre. Teaching BTech and MTech computer science students.</p></div></li>
       <li><span class="when"></span><div><h3>Principal</h3><p>MVJ Degree College, Bengaluru. Planned and set up the newly approved degree college.</p></div></li>
-      <li><span class="when">Jul 2023 &ndash; Jan 2024</span><div><h3>Associate Professor (Visiting Faculty)</h3><p>Dayananda Sagar University, Bengaluru. Mathematics for Industry Automation; Discrete Mathematics for BCA.</p></div></li>
       <li><span class="when">Aug 2020 &ndash; Aug 2022</span><div><h3>Associate Professor, Department of Science</h3><p>St Francis College, Bengaluru. Mathematics for Data Science, Business Data Analytics, Discrete Mathematical Structures, Operations Research. Member of the Research and Development Cell and the Placement and Skill Training team; organising committee, SPECTRUM International Workshop on Research Paradigms.</p></div></li>
       <li><span class="when">Jul 2019 &ndash; Apr 2020</span><div><h3>Associate Professor of Mathematics</h3><p>CHRIST (Deemed to be University), Lavasa Campus, Pune. Linear Algebra, Graph Theory, Mathematical Economics, Operations Research. Member of the Board of Studies, Board of Examiners, IQAC and Internal Research Committee.</p></div></li>
       <li><span class="when">Jun 1997 &ndash; Mar 2019</span><div><h3>Associate Professor and Head, Department of Mathematics</h3><p>Mount Carmel College, Autonomous, Bengaluru. Taught all postgraduate mathematics papers. Head of Department 2017&ndash;2019; PG Academic Coordinator 2011&ndash;2017; IQAC member 2009&ndash;2013; Board of Studies and Board of Examiners 2008&ndash;2019; President of the Mathematics Association.</p></div></li>
       <li><span class="when"></span><div><h3>Lecturer, Department of Mathematics</h3><p>Maharani&rsquo;s Science College, Bengaluru.</p></div></li>
-      <li><span class="when">Since 2019</span><div><h3>Principal Research Consultant</h3><p>OR Solve Solutions, an operational research and analytics consultancy, Bengaluru.</p></div></li>
     </ol>
   </div>
 </section>
@@ -284,33 +284,32 @@ footer .wrap{padding-block:24px;display:flex;flex-wrap:wrap;justify-content:spac
     <div class="sec-head">
       <span class="label">Teaching &amp; service</span>
       <h2>In the classroom and beyond it</h2>
-      <p>For more than twenty-five years I have taught about fifty postgraduate students a year. I try to build intuition first and formalism second.</p>
+      <p>For more than twenty-five years I have taught undergraduate and postgraduate students. I try to build intuition first and formalism second.</p>
     </div>
     <div class="two">
       <div>
         <h3>Courses</h3>
         <ul class="list">
-          <li><b>Measure Theory and postgraduate mathematics</b><span>All PG mathematics papers at Mount Carmel College</span></li>
+          <li><b>Undergraduate and postgraduate mathematics</b><span>Including Measure Theory, Linear Algebra, Graph Theory, Differential Equations, Fluid Mechanics, Differential Geometry and Algebra</span></li>
           <li><b>Computational Statistics</b><span>Postgraduate mathematics and data science</span></li>
           <li><b>Mathematics for Data Science, Business Data Analytics</b><span>UG and PG programmes</span></li>
           <li><b>Linear Algebra, Graph Theory, Discrete Mathematical Structures</b><span>BCA, MCA and BTech</span></li>
           <li><b>Operations Research, Quantitative Methods</b><span>Management and commerce programmes</span></li>
           <li><b>Quantum Computing</b><span>From linear algebra to quantum circuits, with Colab notebooks</span></li>
-          <li><b>Project supervision</b><span>BTech and MTech projects in applied AI and machine learning</span></li>
+          <li><b>Project supervision</b><span>Postgraduate mathematics students, and BTech and MTech projects in applied AI and machine learning</span></li>
         </ul>
       </div>
       <div>
         <h3>Talks, events and service</h3>
         <ul class="list">
           <li><b>Inaugural keynote, NEXUS conference</b><span>Invited speaker</span></li>
-          <li><b>VERTEX 2026</b><span>Organiser of the annual conference</span></li>
           <li><b>National Workshop on Mathematical Biology</b><span>Two-day programme on theory, modelling and applications</span></li>
           <li><b>Mathematics-Driven Cybersecurity Education in the Digital Age</b><span>Paper presented, conference on Revolutionizing Higher Education, Theni Kammavar Sangam College of Education</span></li>
           <li><b>Resource person, Bio Mathematical Modeling workshop</b><span>Jain University, Bengaluru, February 2019</span></li>
           <li><b>Resource person, Student and Faculty Research in Mathematical Sciences</b><span>National conference, Government Science College, Bengaluru, April 2018</span></li>
           <li><b>Invited lecture, &ldquo;To the World of Mathematics&rdquo;</b><span>Faculty of Engineering, CHRIST University, June 2016</span></li>
           <li><b>Invited lecture, &ldquo;Mathematics of Planet Earth&rdquo;</b><span>Amar Jyothi College, Bengaluru, July 2013</span></li>
-          <li><b>Neuromatch Academy</b><span>Teaching assistant (2021, 2022) and content reviewer, Computational Neuroscience and Deep Learning</span></li>
+          <li><b>Neuromatch Academy</b><span>Teaching assistant (2021, 2022, 2023, 2024) and content reviewer, Computational Neuroscience and Deep Learning</span></li>
           <li><b>Question Bank Project Team</b><span>Union Public Service Commission and Staff Selection Commission, 2015&ndash;2018</span></li>
           <li><b>IISAC Global Health Group</b><span>Member</span></li>
         </ul>
@@ -330,8 +329,8 @@ footer .wrap{padding-block:24px;display:flex;flex-wrap:wrap;justify-content:spac
           <h3>Education</h3>
           <ul class="list">
             <li><b>PhD, Mathematics</b><span>CHRIST University, 2009&ndash;2013. Thesis: Some Numerical and Analytical Solutions of Parabolic Partial Differential Equations (advisor: Achala L. Naragund)</span></li>
-            <li><b>PG Diploma in Statistical Analysis (PGDSSA)</b><span>Annamalai University, 2009&ndash;2010</span></li>
-            <li><b>MPhil, Mathematics</b><span>Alagappa University, 2006&ndash;2007</span></li>
+            <li><b>PG Diploma in Statistical Analysis (PGDSSA)</b></li>
+            <li><b>MPhil, Mathematics</b></li>
             <li><b>MCA</b><span>IGNOU</span></li>
             <li><b>MSc, Mathematics</b><span>Bangalore University</span></li>
             <li><b>BSc, Mathematics</b><span>Mahatma Gandhi University, Kerala</span></li>
@@ -361,10 +360,9 @@ footer .wrap{padding-block:24px;display:flex;flex-wrap:wrap;justify-content:spac
         <div>
           <h3>Grants and honours</h3>
           <ul class="list">
-            <li><b>UGC Minor Research Project, &#8377;4.95 lakh</b><span>Numerical solutions of boundary value problems arising in fluid dynamics, 2015&ndash;2018</span></li>
-            <li><b>INCF workshop, University of Edinburgh</b><span>Fully sponsored participant (the only one from India); presented a paper, 2012</span></li>
-            <li><b>Neuromatch Academy, Computational Neuroscience</b><span>Selected sponsored participant, July 2020</span></li>
-            <li><b>National Merit Scholarship</b><span>For rank in the SSLC examination, Kerala</span></li>
+            <li><b>UGC-funded research project</b><span>Numerical solutions of boundary value problems arising in fluid dynamics, 2015&ndash;2018</span></li>
+            <li><b>INCF workshop, University of Edinburgh</b><span>The only sponsored participant from India; presented a paper, 2012</span></li>
+            <li><b>National Merit Scholarship</b><span>For securing a meritorious position, Kerala</span></li>
           </ul>
         </div>
       </div>
@@ -380,8 +378,9 @@ footer .wrap{padding-block:24px;display:flex;flex-wrap:wrap;justify-content:spac
       <p>I am glad to hear from students looking for a supervisor, colleagues interested in collaborating, and organisers looking for a speaker.</p>
     </div>
     <div class="mail">
-      <code id="email">tessy.tom@jainuniversity.ac.in</code>
-      <button type="button" id="copyEmail">Copy email</button>
+      <div class="row"><span class="k">Email</span><code id="c-email">tessy.tom@jainuniversity.ac.in</code><button type="button" id="b-email" data-copy="c-email">Copy</button></div>
+      <div class="row"><span class="k">Alternate email</span><code id="c-email2">tessytoms@gmail.com</code><button type="button" id="b-email2" data-copy="c-email2">Copy</button></div>
+      <div class="row"><span class="k">Phone</span><code id="c-phone">+91 98459 09961</code><button type="button" id="b-phone" data-copy="c-phone">Copy</button></div>
     </div>
   </div>
 </section>
@@ -493,12 +492,12 @@ document.querySelectorAll(".filters button").forEach(b => b.addEventListener("cl
 }));
 renderPubs("all");
 
-document.getElementById("copyEmail").addEventListener("click", async e => {
-  const btn = e.currentTarget, text = document.getElementById("email").textContent;
-  try { await navigator.clipboard.writeText(text); btn.textContent = "Copied"; }
-  catch { const r = document.createRange(); r.selectNodeContents(document.getElementById("email")); const s = getSelection(); s.removeAllRanges(); s.addRange(r); btn.textContent = "Selected, press Ctrl+C"; }
-  setTimeout(() => btn.textContent = "Copy email", 2200);
-});
+document.querySelectorAll("[data-copy]").forEach(btn => btn.addEventListener("click", async () => {
+  const el = document.getElementById(btn.dataset.copy);
+  try { await navigator.clipboard.writeText(el.textContent); btn.textContent = "Copied"; }
+  catch { const r = document.createRange(); r.selectNodeContents(el); const s = getSelection(); s.removeAllRanges(); s.addRange(r); btn.textContent = "Selected"; }
+  setTimeout(() => btn.textContent = "Copy", 2200);
+}));
 document.getElementById("yr").textContent = new Date().getFullYear();
 
 /* Hero curve: a family of heat-equation profiles u(x,t) spreading over time,
